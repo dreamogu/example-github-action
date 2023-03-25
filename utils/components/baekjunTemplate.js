@@ -19,8 +19,7 @@ export default function baekjunTemplate(steps) {
   | Platinum |       ${Platinum || 0}      |
   | Diamond  |       ${Diamond || 0}       |
   |   Ruby   |       ${Ruby || 0}          |
-  |  Total   |       ${total}         |
-  `;
+  |  Total   |       ${total}         |`;
 
   return template;
 }

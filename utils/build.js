@@ -13,8 +13,7 @@ const DOMAINS = ['백준', '프로그래머스', 'SWEA']; // 도메인들을 배
 const readmeHeader = `
 # javascript-for-algorithm
 
-프로그래머스, 백준, 삼성 SW 역량테스트 등 문제풀이를 백준허브를 이용해 저장하기 위한 레포지토리입니다.
-`;
+프로그래머스, 백준, 삼성 SW 역량테스트 등 문제풀이를 백준허브를 이용해 저장하기 위한 레포지토리입니다.`;
 
 // getContents.js에서 getDomainDirList() 함수를 가져와
 // map()을 이용해 각 도메인 별 데이터 가져옵니다.
