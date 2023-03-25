@@ -1,0 +1,14 @@
+{
+  "name": "example-github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "build":"node utils/build.js",
+    "test": "node utils/getContents.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
