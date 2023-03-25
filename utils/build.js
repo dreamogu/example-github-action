@@ -25,8 +25,8 @@ const [baekjun, programmers, swea] = DOMAINS.map((domain) =>
 
 // getDomainDirList()에서 반환된 각 도메인의 단계별 카운트를 매핑한 객체를
 // 앞서 마크업에서 만들어두었던 Template 함수들에 전달인자로 전달합니다.
-const baekJunString = baekjunTemplate(baekjun);
 const programmersString = programmersTemplate(programmers);
+const baekJunString = baekjunTemplate(baekjun);
 
 // 이후 반환된 문자열을 join()을 이용해 합쳐줍니다.
 const updateData = [readmeHeader, baekJunString, programmersString].join('\\n');
